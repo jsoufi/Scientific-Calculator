@@ -1,0 +1,43 @@
+.button
+{
+	font-size: 18px;
+	margin: 3px; 
+	height: 55px;
+	width: 60px;
+	margin-top: 5px;
+	margin-bottom : 5px;
+	border-radius: 15px;
+	background-color: transparent;
+	color: white;
+	cursor:pointer;
+	
+}
+
+.affichage
+{
+	font-size: 35px;
+	border-radius: 25px;
+	margin-top: 10px;
+	height: 50px;
+	width: 265px;
+	
+}
+#calculatrice
+{	
+    width: 280px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 25px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-image: url(im2.jpg);
+	
+}
+.button:hover {
+  background-color: #ea00ea;
+}
+body{
+	background:linear-gradient(to right, #ff00c8e6, #0900ff);
+}

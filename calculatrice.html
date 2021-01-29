@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+	<head>
+	
+		<title>Calculatrice</title>
+		<meta charset='utf-8'>
+		<link rel="stylesheet" type="text/css" href="calculatrice.css"/>
+		<script type="text/javascript" src="code.js"></script>
+	
+	</head>
+	<body>
+	
+		<div id="calculatrice">
+
+        	<form name="form">
+                <input type="text" class="affichage" name="Saisie" Size="22">
+            </form>
+    		<BR>
+    		<input type="button" name="plus"  class="button" value="+" onClick="MetAJourChaine('+')">
+            <input type="button" name="moins" class="button" value="-" onClick="MetAJourChaine('-')">
+            <input type="button" name="fois"  class="button" value="x" onClick="MetAJourChaine('*')">
+            <input type="button" name="div"   class="button" value="/" onClick="MetAJourChaine('/')">
+
+            <br>
+            <input type="button" name="zéro"  class="button" value="0" onClick="MetAJourChaine('0')">
+            <input type="button" name="un"	  class="button" value="1" onClick="MetAJourChaine('1')">
+            <input type="button" name="deux"  class="button" value="2" onClick="MetAJourChaine('2')">
+            <input type="button" name="point" class="button" value="." onClick="MetAJourChaine('.')">
+
+            <br>
+            <input type="button" name="trois"  class="button" value="3" onClick="MetAJourChaine('3')">
+            <input type="button" name="quatre" class="button" value="4" onClick="MetAJourChaine('4')">
+            <input type="button" name="cinq"   class="button" value="5" onClick="MetAJourChaine(5)">
+            <input type="button" name="RAZ"    class="button" value="Effacer" onClick="document.form.Saisie.value=''">
+
+            <br>
+            <input type="button" name="six"	 class="button"	value="6" onClick="MetAJourChaine('6')">
+            <input type="button" name="sept" class="button"	value="7" onClick="MetAJourChaine('7')">
+            <input type="button" name="huit" class="button"	value="8" onClick="MetAJourChaine('8')">
+            <input type="button" name="neuf" class="button"	value="9" onClick="MetAJourChaine('9')">
+
+            <br>
+            <input type="button" name="sin"	 class="button"	value="sin" onClick="MetAJourChaineSin()">
+            <input type="button" name="cos"  class="button"	value="cos" onClick="MetAJourChaineCos()">
+            <input type="button" name="tan"  class="button"	value="tan" onClick="MetAJourChaineTan()">
+            <input type="button" name="Calc" class="button"	value="="   onClick="document.form.Saisie.value=eval(document.form.Saisie.value)">
+
+
+        </div>
+	
+	</body>
+
+</html>
